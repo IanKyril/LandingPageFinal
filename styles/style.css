@@ -1,0 +1,322 @@
+.book-express-logo {
+    width: 200px;
+    height: auto;
+}
+
+.book-express-logo-placeholder {
+    width: 800px;
+    height: auto;
+}
+
+.book-express-bg-info {
+    background-color: rgb(111, 238, 238);
+}
+
+.mb-4 {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.no-underline {
+    text-decoration: none; /* Removes the underline */
+}
+
+.navbar-nav .nav-image {
+    margin: 0 15px; 
+}
+
+.nav-image{
+    width: 35px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.nav-image:hover {
+    transform: scale(1.1); 
+    filter: grayscale(50%); 
+}
+
+.btn-buy-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+    background-image: linear-gradient(to bottom, lightcoral 0%, lightcoral 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-buy-now:hover {
+    background-image: linear-gradient(to bottom, crimson 0%, crimson 100%);
+}
+
+.btn-add-to-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+    background-image: linear-gradient(to bottom, lightcoral 0%, lightcoral 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-add-to-cart:hover {
+    background-image: linear-gradient(to bottom, crimson 0%, crimson 100%);
+}
+
+.price {
+    color: lightcoral;
+    margin-top: 20px;
+}
+
+.fantasy-genre {
+    background-image: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+.mystery-thriller {
+    background-image: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.genre-contemporary {
+    background-image: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.young-adult {
+    background-image: linear-gradient(170.41deg, #3F07F8 -10.89%, #4289FF 92.77%);
+}
+
+.classics {
+    background-image: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.discover {
+    background-image: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.all-categories {
+    background-color: #F4F4F4;
+    padding: 10px 0 20px;
+}
+
+.personal-contact {
+    align-items: center;
+    justify-content: left;
+}
+
+#fantasy-genre,
+#genre-mystery-thriller,
+#genre-contemporary,
+#young-adult,
+#classics {
+    margin-top: 60px !important;
+    margin-bottom: 45px;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.divider {
+    font-weight: bold;
+}
+
+.copyright {
+    margin-top: 5px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    width: 100%; 
+}
+
+.socials-image{
+    width: 65px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.socials-image:hover {
+    transform: scale(1.1); 
+    filter: grayscale(50%); 
+}
+
+dialog {
+    width: 50%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: left;
+    width: 100%;
+}
+
+.popup-content p {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#terms-modal:target,
+#privacy-modal:target,
+#placeholder-modal:target,
+#contact-modal:target {
+    display: flex;
+}
+
+.chat-icon {
+    position: fixed;
+    bottom: 50px;
+    right: 130px;
+    z-index: 1000;
+    background: transparent;  
+    padding: 0;  
+    border: none; 
+}
+
+.chat-icon img {
+    width: 80px;  
+    height: auto;  
+    display: block; 
+    background: transparent;  
+    border: none; 
+    box-shadow: none; 
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.chat-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* CSS TO SUPPORT MOBILE VIEW*/
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .input-group.w-25 {
+        width: 100% !important;
+    }
+
+    .book-express-logo {
+        width: 150px;
+    }
+
+    .carousel-item .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousel-item .col-lg-7, .carousel-item .col-lg-4 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .carousel-item img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .container .row {
+        flex-direction: column;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .btn-buy-now, .btn-add-to-cart {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .socials {
+        flex-direction: column;
+    }
+
+    .chat-icon {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    dialog {
+        width: 90%;
+    }
+}
+
